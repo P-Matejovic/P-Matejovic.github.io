@@ -1,0 +1,139 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+.Main_Picture_headers{
+/*   border: red solid 1px; */
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+}
+img {
+/*   border: 1px solid red; */
+  height: 370px;
+  width: 1000px;  
+  margin: auto;
+  margin-bottom: 0px;
+}
+html div .headings {
+/* border: 1px solid red; */
+margin-left: 300px;
+margin-top: 1px;
+font-family: Abril Fatface;
+color: #222;
+}
+html .Main_Picture_headers h3 {
+position: relative;
+top: -200px;
+left:300px;
+font-size: 30px;
+}
+html .Main_Picture_headers h1{
+position: relative;
+top: -205px;
+left: 300px;
+font-size:60px;
+}
+p {
+  color: #222;
+  font-family: Josefin Sans;
+  font-size: 22px;
+}
+#box {
+/*   border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:-60px;
+}
+main div {
+  width: 700px;
+/*   border: 1px solid grey; */
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 25px;  
+  margin-bottom:15px;
+} 
+blockquote {
+  border-left: solid 1px #696969;
+  border-left-width: 10px;
+  width: 800px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+    
+}
+.qoty:before {
+  content: '”';
+  font-size: 100px;
+  color: white;
+  margin-top: -20px;
+  margin-left: -200px;
+/*   border: green solid 1px; */
+  
+  
+}
+html main blockquote p {
+/*  border: 1px solid red; */
+ font-size: 40px;
+ height:40px;
+ color: white;
+ position: relative;
+ right: -100px;
+ bottom: 20px;
+ text-align: block;  
+}
+html main div ul {
+  margin-top: 15px;
+}
+html main div ul li{
+ margin-left: 40px;
+ margin-top: 5px;
+ font-family: josephine sans;
+ list-style-type: square;
+}
+.text_on_page h3 {
+  font-family: Abril Fatface;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+.text_on_page h2 {
+  padding-bottom: 20px;
+  font-family: Abril Fatface;
+}
+html main h4 {
+/*   color: red; */
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+html main .Grey_stripe {
+  width: 700px;
+  height: 5px;
+  background: grey;
+}
+html main .End_text {
+  padding-bottom: 50px;
+}
+
+.link {
+  padding-top: 8px;
+  text-align: center;
+  width:150px;
+  height: 30px;
+  text-decoration: none;
+  color: grey;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid grey;
+  border-radius: 20%/50%;
+  box-shadow: 1px 1px 1px 1px grey;
+  z-index: 2;
+}
+.link:hover {
+  color: #A0A0A0;
+}
